@@ -32,4 +32,12 @@ public class OrderServiceTest {
         //then
         Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
     }
+
+//    @Test
+//    void fieldInjectionTest() {
+//        OrderServiceImpl orderService = new OrderServiceImpl();
+//        // 값을 넣어 줄 수 없으므로 NullPointException 발생
+//        orderService.createOrder(1L, "itemA", 10000);
+//    }
+
 }
